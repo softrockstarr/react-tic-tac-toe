@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/softrockstarr/pen/ExeZRdq](https://codepen.io/softrockstarr/pen/ExeZRdq).
+This was originally a code-along to learn React. This little tic tac toe game was built while following a tutorial found in the React docs (https://reactjs.org/tutorial/tutorial.html). Once complete, I decided to take it further by completing the extra tasks, and then I updated the look with some simple styling and a few media queries to make it a bit more responsive. 
 
 # Getting Started with Create React App
 
