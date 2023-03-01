@@ -118,7 +118,7 @@ class Game extends React.Component {
         : "Go to game start";
       return (
         <li key={move}>
-          <button onClick={() => this.jumpTo(move)}>
+          <button class="button" onClick={() => this.jumpTo(move)}>
             {move === this.state.stepNumber ? <b>{desc}</b> : desc}
           </button>
         </li>
@@ -146,7 +146,7 @@ class Game extends React.Component {
         <div className="game-info">
           <div>{status}</div>
           <ol>{this.state.isDescending ? moves : moves.reverse()}</ol>
-          <button onClick={() => this.sortHistory()}>
+          <button class="button" onClick={() => this.sortHistory()}>
             Sort by: {this.state.isDescending ? "Descending" : "Asending"}
           </button>
         </div>
